@@ -1,0 +1,37 @@
+2025-11-08 11:18:27 INFO {"time": "2025-11-08T09:18:27.722620Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:21:24 INFO {"time": "2025-11-08T09:21:24.888749Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:21:34 INFO {"time": "2025-11-08T09:21:34.019967Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:21:36 INFO {"time": "2025-11-08T09:21:36.516130Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:21:40 INFO {"time": "2025-11-08T09:21:40.044133Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:21:48 INFO {"time": "2025-11-08T09:21:48.420870Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:21:53 INFO {"time": "2025-11-08T09:21:53.226998Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:21:56 INFO {"time": "2025-11-08T09:21:56.457826Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:22:00 INFO {"time": "2025-11-08T09:22:00.186086Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:22:05 INFO {"time": "2025-11-08T09:22:05.812929Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:22:50 INFO {"time": "2025-11-08T09:22:50.096913Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:46:52 INFO {"time": "2025-11-08T09:46:52.570428Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:47:42 INFO {"time": "2025-11-08T09:47:42.772332Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:51:05 INFO {"time": "2025-11-08T09:51:05.489710Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:57:35 INFO {"time": "2025-11-08T09:57:35.228017Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:58:01 INFO {"time": "2025-11-08T09:58:01.703052Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 11:58:03 INFO {"time": "2025-11-08T09:58:03.023494Z", "event": "game_start", "player": null, "details": "Game server started", "meta": {}}
+2025-11-08 12:00:23 INFO {"time": "2025-11-08T10:00:23.201574Z", "event": "client_connect", "player": "WgjvOhET9dQp2VzBAAAB", "details": "Client connected", "meta": {}}
+2025-11-08 12:00:23 INFO {"time": "2025-11-08T10:00:23.239160Z", "event": "user_join", "player": "WgjvOhET9dQp2VzBAAAB", "details": "far joined as X", "meta": {}}
+2025-11-08 12:00:30 INFO {"time": "2025-11-08T10:00:30.297479Z", "event": "client_connect", "player": "iGb8SqSo-05WDCHTAAAD", "details": "Client connected", "meta": {}}
+2025-11-08 12:00:30 INFO {"time": "2025-11-08T10:00:30.332000Z", "event": "user_join", "player": "iGb8SqSo-05WDCHTAAAD", "details": "esl joined as O", "meta": {}}
+2025-11-08 12:00:35 INFO {"time": "2025-11-08T10:00:35.722208Z", "event": "player_move", "player": "WgjvOhET9dQp2VzBAAAB", "details": "Player X moved to 1", "meta": {}}
+2025-11-08 12:00:38 INFO {"time": "2025-11-08T10:00:38.398432Z", "event": "player_move", "player": "iGb8SqSo-05WDCHTAAAD", "details": "Player O moved to 0", "meta": {}}
+2025-11-08 12:00:40 INFO {"time": "2025-11-08T10:00:40.670345Z", "event": "player_move", "player": "WgjvOhET9dQp2VzBAAAB", "details": "Player X moved to 4", "meta": {}}
+2025-11-08 12:00:42 INFO {"time": "2025-11-08T10:00:42.692173Z", "event": "player_move", "player": "iGb8SqSo-05WDCHTAAAD", "details": "Player O moved to 3", "meta": {}}
+2025-11-08 12:00:45 INFO {"time": "2025-11-08T10:00:45.077432Z", "event": "game_winner", "player": "far", "details": "Player far won", "meta": {}}
+2025-11-08 12:00:57 INFO {"time": "2025-11-08T10:00:57.542590Z", "event": "player_disconnect", "player": "iGb8SqSo-05WDCHTAAAD", "details": "Player disconnected", "meta": {}}
+2025-11-08 12:00:59 INFO {"time": "2025-11-08T10:00:59.969526Z", "event": "player_disconnect", "player": "WgjvOhET9dQp2VzBAAAB", "details": "Player disconnected", "meta": {}}
+2025-11-08 12:01:02 INFO {"time": "2025-11-08T10:01:02.392929Z", "event": "client_connect", "player": "_r8-X9zWqI5jSgeoAAAF", "details": "Client connected", "meta": {}}
+2025-11-08 12:01:02 INFO {"time": "2025-11-08T10:01:02.432493Z", "event": "user_join", "player": "_r8-X9zWqI5jSgeoAAAF", "details": "esl joined as X", "meta": {}}
+2025-11-08 12:01:05 INFO {"time": "2025-11-08T10:01:05.776550Z", "event": "client_connect", "player": "JWpjIJx4Sgk30q5dAAAH", "details": "Client connected", "meta": {}}
+2025-11-08 12:01:05 INFO {"time": "2025-11-08T10:01:05.800357Z", "event": "user_join", "player": "JWpjIJx4Sgk30q5dAAAH", "details": "far joined as O", "meta": {}}
+2025-11-08 12:01:09 INFO {"time": "2025-11-08T10:01:09.353256Z", "event": "player_move", "player": "_r8-X9zWqI5jSgeoAAAF", "details": "Player X moved to 0", "meta": {}}
+2025-11-08 12:01:11 INFO {"time": "2025-11-08T10:01:11.707590Z", "event": "player_move", "player": "JWpjIJx4Sgk30q5dAAAH", "details": "Player O moved to 1", "meta": {}}
+2025-11-08 12:01:13 INFO {"time": "2025-11-08T10:01:13.915615Z", "event": "player_move", "player": "_r8-X9zWqI5jSgeoAAAF", "details": "Player X moved to 3", "meta": {}}
+2025-11-08 12:01:15 INFO {"time": "2025-11-08T10:01:15.975130Z", "event": "player_move", "player": "JWpjIJx4Sgk30q5dAAAH", "details": "Player O moved to 2", "meta": {}}
+2025-11-08 12:01:18 INFO {"time": "2025-11-08T10:01:18.576634Z", "event": "game_winner", "player": "esl", "details": "Player esl won", "meta": {}}
