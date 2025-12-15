@@ -6,6 +6,9 @@ main = Blueprint("main", __name__)
 def index():
     # بنرجع الصفحة الرئيسية
     return render_template('index.html'), 200  # ✅ Status code 200 OK
+@main.route('/admin')
+def admin():
+    return render_template('admin.html'),200
 
 @main.errorhandler(404)
 def page_not_found(e):

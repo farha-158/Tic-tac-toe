@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Inbox</title>
+  <script src="https://cdn.socket.io/4.6.0/socket.io.min.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
+</head>
+<body>
+  <h1>Admin Inbox</h1>
+
+  <div class="admin-container">
+    <!-- الشمال: اختيار البروتوكول -->
+    <div class="protocol-selection">
+      <label><input type="radio" name="protocol" value="IMAP" checked> IMAP</label>
+      <label><input type="radio" name="protocol" value="POP3"> POP3</label>
+      <button id="refresh">Refresh Inbox</button>
+    </div>
+
+    <!-- اليمين: عرض الرسائل -->
+    <div class="emails-display">
+      <ul id="email-list"></ul>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='js/admin.js') }}"></script>
+</body>
+</html>

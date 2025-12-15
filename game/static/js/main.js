@@ -80,3 +80,5 @@ socket.on("opponent_left", data => {
 socket.on("error_message", data => {
   alert(`⚠️ ${data.error}`);
 });
+
+

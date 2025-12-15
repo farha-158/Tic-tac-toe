@@ -1,0 +1,105 @@
+/* إعداد عام للصفحة */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+}
+
+/* عنوان الصفحة */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* حاوية الصفحة */
+.admin-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* الشمال: اختيار البروتوكول */
+.protocol-selection {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* أزرار الراديو */
+.protocol-selection label {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.protocol-selection input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* زر Refresh */
+#refresh {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#refresh:hover {
+    background-color: #45a049;
+}
+
+/* اليمين: عرض الإيميلات */
+.emails-display {
+    flex: 1;
+}
+
+/* قائمة الإيميلات */
+#email-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* كل إيميل ككارت */
+#email-list li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-left: 5px solid #4CAF50;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+#email-list li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* كل سطر داخل الكارت */
+#email-list li p {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+/* تمييز العناوين */
+#email-list li p strong {
+    color: #333;
+}
+
+/* نص الجسم */
+#email-list li p span.body-text {
+    color: #555;
+}
